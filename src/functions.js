@@ -9,6 +9,9 @@ function mapForEach(arr, fn) {
   }
   return newArr;
 }
+function checkPastLimit(limiter, item) {
+  return item > limiter;
+}
 
 const arr1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log('arr1', arr1);
@@ -17,8 +20,12 @@ const arr2 = mapForEach(arr1, (item) => {
   return item * 2;
 });
 console.log('arr2', arr2);
+
 const arr3 = mapForEach(arr1, (item) => {
   console.log(`doing something with the item: ${item}`);
   return item > 5;
 });
 console.log('arr3', arr3);
+
+const arr4 = mapForEach(arr1, checkPastLimit.bind(this, 1));
+console.log('arr4', arr4);
