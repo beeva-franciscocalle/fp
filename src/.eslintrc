@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "meteor": true,
+  },
+  "globals": {
+    "_": false,
+    "_s": false,
+    "BlazeLayout": false,
+    "FlowRouter": false,
+    "SimpleSchema": false,
+    "Themis": true
+  },
+
+  "rules": {
+    "object-shorthand": [1, "never"],
+    "func-names": [0]
+  }
+}
