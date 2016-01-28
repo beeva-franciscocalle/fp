@@ -96,5 +96,5 @@ Iterators / Generators / Collectors (infinite lists)
 * [Don't be scared of functional programming](https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/) - An article from Smashing Magazince
 * [James Coglan: Practical functional programming: pick two | JSConf EU 2014 ](https://www.youtube.com/watch?v=XcS-LdEBUkE&feature=youtu.be)
 * [Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/index.html)
-*[Using Immutable Data Structures in JavaScript](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
-*[MPJME from Spotify](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
+* [Using Immutable Data Structures in JavaScript](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
+* [MPJME from Spotify](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
