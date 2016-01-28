@@ -22,15 +22,15 @@ side-effects, meaning that they do not mutate any shared state or mutable
 arguments, and other than their return value, they don’t produce any observable
  output, including thrown exceptions, triggered events, I/O devices, network,
  console, display, logs, etc...
- * **Higher-order functions**: Functions that take other functions as their
- arguments. A basic example of a HOF is map which takes a function and a list as
- its arguments, applies the function to all elements of the list, and returns
- the list of its results
- * **Immutable data**: Purely functional programs typically operate on immutable
+* **Higher-order functions**: Functions that take other functions as their
+arguments. A basic example of a HOF is map which takes a function and a list as
+its arguments, applies the function to all elements of the list, and returns
+the list of its results
+* **Immutable data**: Purely functional programs typically operate on immutable
 data. Instead of altering existing values, altered copies are created and the
 original is preserved. Since the unchanged parts of the structure cannot be
 modified, they can often be shared between the old and new copies, which saves
- memory.
+memory.
 
 
 Because of the lack of shared state and side-effects, pure functions are much
